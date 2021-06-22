@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+
+body, html
+{
+    height: 100%;
+    margin: 0;
+    color: #666;
+    font-family: 'Open Sans', sans-serif;    font-weight: 500;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    font-size: 16px;
+
+}
+
+
+.bg1,
+.bg2,
+.bg3
+{
+    position: relative;
+    opacity: 0.80;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.bg1
+{
+    background-image: url(images/pexels-luciann-photography-3566139.jpg);
+    min-height: 100%;
+}
+
+.bg2
+{
+    background-image: url(images/pexels-rachel-claire-4846612.jpg);
+    min-height: 600px;
+}
+
+
+.bg3
+{
+    background-image: url(images/pexels-vincent-rivaud-2265878.jpg);
+    min-height: 600px;
+}
+
+
+section
+{
+    text-align: center;
+    padding: 60px 80px;
+}
+
+.light
+{
+    background-color: rgb(15, 14, 104, .5);
+    color: #fff;
+
+}
+.dark
+{
+    background-color: #333;
+    color: #ddd;
+}
+
+
+.text
+{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    color: #000;
+    font-size: 28px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.text .title
+{
+    font-size: 35px;
+    letter-spacing: 18px;
+    background-color: rgb(15, 14, 104, .5);
+    color: #fff;
+    padding: 60px;
+  
+}
+
+.title .trans
+{
+    background-color: transparent;
+}
+
